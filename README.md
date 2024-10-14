@@ -1,29 +1,34 @@
 # Projeto Final do Curso de Front-End (Senac)
+
 ## E-commerce 🛒🛍️📦
 
 Este projeto foi desenvolvido para o curso do Senac e vai além dos requisitos propostos, apresentando uma estrutura moderna e inovadora.
 
--Tecnologias Utilizadas:
-Bootstrap 5, Flexbox e Viewport: Garantem responsividade e otimização para diversos dispositivos.
-Design e Identidade:
+### Tecnologias Utilizadas:
+- **Bootstrap 5**
+- **Flexbox**
+- **Viewport**: Garantem responsividade e otimização para diversos dispositivos.
 
--Tema Livre: 
-Criei um logo exclusivo e selecionei imagens personalizadas para proporcionar uma identidade visual única ao projeto.
-Funcionalidades do Site:
+### Design e Identidade:
+- **Tema Livre**: 
+  Criei um logo exclusivo e selecionei imagens personalizadas para proporcionar uma identidade visual única ao projeto.
 
--Página Inicial:
-Carousel de Imagens: Apresenta fotos em destaque.
-Destaques Interativos: Cada destaque inclui foto, descrição e um recurso de texto expansível em JavaScript.
+### Funcionalidades do Site:
 
--Página de Produtos:
-Exibição de produtos: Cada produto possui imagem, descrição e um botão de compra.
-Animação Dinâmica: O botão de compra muda de cor ao passar o mouse, utilizando JavaScript para interatividade.
-Página de Login:
+- **Página Inicial**:
+  - **Carousel de Imagens**: Apresenta fotos em destaque.
+  - **Destaques Interativos**: Cada destaque inclui foto, descrição e um recurso de texto expansível em JavaScript.
 
--Formulário de Login: 
-Permite acesso via redes sociais ou preenchimento manual.
+- **Página de Produtos**:
+  - **Exibição de produtos**: Cada produto possui imagem, descrição e um botão de compra.
+  - **Animação Dinâmica**: O botão de compra muda de cor ao passar o mouse, utilizando JavaScript para interatividade.
 
-Conclusão: O projeto não só atende aos requisitos solicitados, mas também incorpora animações e interações que melhoram a experiência do usuário, resultando em um site mais completo e funcional.
+- **Página de Login**:
+  - **Formulário de Login**: Permite acesso via redes sociais ou preenchimento manual.
+
+### Conclusão:
+O projeto não só atende aos requisitos solicitados, mas também incorpora animações e interações que melhoram a experiência do usuário, resultando em um site mais completo e funcional.
+
 
 ![1](https://github.com/user-attachments/assets/a4e9b146-1661-4bd1-b5c2-eb8096ea0d36)
 ![2](https://github.com/user-attachments/assets/135216f1-05dc-4840-af59-3af62c087028)
