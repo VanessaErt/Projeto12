@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/home-whats-footer.css">
+    <link rel="stylesheet" href="css/pesquisa-navbar.css">
+    <link rel="stylesheet" href="css/novidades.css">
+    <title>Elegance Moda</title>
+</head>
+<body>
+    <!-- Hearder fixo no topo -->
+    <div class="promo-container">
+        <span id="promo-text"></span>
+        <i class="material-icons copy-icon" onclick="copyPromoCode()">content_copy</i>
+        <i class="material-icons check-icon">check_circle</i>
+        <span id="copy-message">Copiado!</span>
+    </div>
+
+    <!-- Logo -->
+    <div id="logo-container" class="logo-container">
+        <img src="assets/home/logo.png" alt="Logo da empresa">
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="novidades.html" class="active">NOVIDADES</a></li>
+                    <li><a href="feminino.html">FEMININO</a></li>
+                    <li><a href="masculino.html">MASCULINO</a></li>
+                    <li class="nav-icon"><a href="pagina-de-pesquisa.html" id="search-link"><i class="fas fa-search"></i></a></li>
+                    <li class="nav-icon"><a href="pagina-de-login.html" id="login"><i class="fas fa-user"></i></a></li>
+                    <li class="nav-icon"><a href="carrinho-de-compras.html" id="cart"><i class="fas fa-shopping-bag"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Contêiner de pesquisa -->
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Digite sua pesquisa">
+        <button id="search-button"><i class="fas fa-search"></i></button>
+    </div>
+
+    <div class="info-topo">
+        <h1><a href="index.html">Página Inicial</a> / Novidades</h1>
+    </div>
+    
+
+    <!-- Filtros -->
+    <div class="filters">
+        <h2>Filtrar por:</h2>
+        <div class="filter-section">
+            <label for="gender">Gênero:</label>
+            <select id="gender">
+                <option value="all">Todos</option>
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>
+            </select>
+        </div>
+        <div class="filter-section">
+            <label for="category">Categoria:</label>
+            <select id="category">
+                <option value="all">Todas</option>
+                <option value="vestidos">Vestidos</option>
+                <option value="calcados">Calças</option>
+                <option value="casacos">Casacos</option>
+                <option value="saias">Saias</option>
+                <option value="blazers">Blazers</option>
+            </select>
+        </div>
+        <div class="filter-section">
+            <label for="size">Tamanho:</label>
+            <select id="size">
+                <option value="all">Todos</option>
+                <option value="pp">PP</option>
+                <option value="p">P</option>
+                <option value="m">M</option>
+                <option value="g">G</option>
+                <option value="gg">GG</option>
+                <option value="u">U</option>
+                <option value="34">34</option>
+                <option value="36">36</option>
+                <option value="38">38</option>
+                <option value="40">40</option>
+                <option value="42">42</option>
+                <option value="44">44</option>
+            </select>
+        </div>
+        <button onclick="applyFilters()">Aplicar Filtros</button>
+    </div>
+
+    <!-- Produtos -->
+    <div class="products-container">
+        <a href="novidades-1.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-1/1.jpg" alt="Produto 1" class="product-image normal">
+                    <img src="assets/novidades/novidades-1/2.jpg" alt="Produto 1 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Bermuda Alfaiataria</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">34</span>
+                        <span class="size-square">36</span>
+                        <span class="size-square">38</span>
+                        <span class="size-square">40</span>
+                        <span class="size-square">42</span>
+                        <span class="size-square">44</span>
+                    </div>
+                    <p class="product-price">R$ 341,63</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="novidades-2.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-2/1.jpg" alt="Produto 2" class="product-image normal">
+                    <img src="assets/novidades/novidades-2/2.jpg" alt="Produto 2 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Bermuda Alfaiataria Comfy</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">34</span>
+                        <span class="size-square">36</span>
+                        <span class="size-square">38</span>
+                        <span class="size-square">40</span>
+                        <span class="size-square">42</span>
+                        <span class="size-square">44</span>
+                    </div>
+                    <p class="product-price">R$ 299,78</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="novidades-3.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-3/1.jpg" alt="Produto 3" class="product-image normal">
+                    <img src="assets/novidades/novidades-3/2.jpg" alt="Produto 3 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Bermuda Alfaiataria Listrada</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">34</span>
+                        <span class="size-square">36</span>
+                        <span class="size-square">38</span>
+                        <span class="size-square">40</span>
+                        <span class="size-square">42</span>
+                        <span class="size-square">44</span>
+                    </div>
+                    <p class="product-price">R$ 273,71</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="novidades-4.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-4/1.jpg" alt="Produto 4" class="product-image normal">
+                    <img src="assets/novidades/novidades-4/2.jpg" alt="Produto 4 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Bermuda Cintura Alta Joana</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">34</span>
+                        <span class="size-square">36</span>
+                        <span class="size-square">38</span>
+                        <span class="size-square">40</span>
+                        <span class="size-square">42</span>
+                        <span class="size-square">44</span>
+                    </div>
+                    <p class="product-price">R$ 602,99</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="novidades-5.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-5/1.jpg" alt="Produto 5" class="product-image normal">
+                    <img src="assets/novidades/novidades-5/2.jpg" alt="Produto 5 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Bermuda Davi Alfaiataria</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">34</span>
+                        <span class="size-square">36</span>
+                        <span class="size-square">38</span>
+                        <span class="size-square">40</span>
+                        <span class="size-square">42</span>
+                        <span class="size-square">44</span>
+                    </div>
+                    <p class="product-price">R$ 375,93</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="novidades-6.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-6/1.jpg" alt="Produto 6" class="product-image normal">
+                    <img src="assets/novidades/novidades-6/2.jpg" alt="Produto 6 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Bermuda Davi De Sarja</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">34</span>
+                        <span class="size-square">36</span>
+                        <span class="size-square">38</span>
+                        <span class="size-square">40</span>
+                        <span class="size-square">42</span>
+                        <span class="size-square">44</span>
+                    </div>
+                    <p class="product-price">R$ 370,44</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="novidades-7.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-7/1.jpg" alt="Produto 7" class="product-image normal">
+                    <img src="assets/novidades/novidades-7/2.jpg" alt="Produto 7 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Bermuda Jeans Davi</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">34</span>
+                        <span class="size-square">36</span>
+                        <span class="size-square">38</span>
+                        <span class="size-square">40</span>
+                        <span class="size-square">42</span>
+                        <span class="size-square">44</span>
+                    </div>
+                    <p class="product-price">R$ 410,23</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="novidades-8.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-8/1.jpg" alt="Produto 8" class="product-image normal">
+                    <img src="assets/novidades/novidades-8/2.jpg" alt="Produto 8 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Bermuda Jeans Joana</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">34</span>
+                        <span class="size-square">36</span>
+                        <span class="size-square">38</span>
+                        <span class="size-square">40</span>
+                        <span class="size-square">42</span>
+                        <span class="size-square">44</span>
+                    </div>
+                    <p class="product-price">R$ 458,25</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="novidades-9.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-9/1.jpg" alt="Produto 9" class="product-image normal">
+                    <img src="assets/novidades/novidades-9/2.jpg" alt="Produto 9 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Bermuda Jeans Joana</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">34</span>
+                        <span class="size-square">36</span>
+                        <span class="size-square">38</span>
+                        <span class="size-square">40</span>
+                        <span class="size-square">42</span>
+                        <span class="size-square">44</span>
+                    </div>
+                    <p class="product-price">R$ 390,43</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="novidades-10.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-10/1.jpg" alt="Produto 10" class="product-image normal">
+                    <img src="assets/novidades/novidades-10/2.jpg" alt="Produto 10 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Blusa Assimétrica</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">PP</span>
+                        <span class="size-square">P</span>
+                        <span class="size-square">M</span>
+                        <span class="size-square">G</span>
+                    </div>
+                    <p class="product-price">R$ 293,61</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="novidades-11.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-11/1.jpg" alt="Produto 11" class="product-image normal">
+                    <img src="assets/novidades/novidades-11/2.jpg" alt="Produto 11 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Blusa Assimétrica</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">PP</span>
+                        <span class="size-square">P</span>
+                        <span class="size-square">M</span>
+                        <span class="size-square">G</span>
+                    </div>
+                    <p class="product-price">R$ 259,31</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="novidades-12.html" class="product-link">
+            <div class="product">
+                <div class="image-container">
+                    <img src="assets/novidades/novidades-12/1.jpg" alt="Produto 12" class="product-image normal">
+                    <img src="assets/novidades/novidades-12/2.jpg" alt="Produto 12 Hover" class="product-image hover">
+                </div>
+                <div class="product-info">
+                    <h4>Blusa Com Alças De Metal</h4>
+                    <div class="product-sizes">
+                        <span class="size-square">PP</span>
+                        <span class="size-square">P</span>
+                        <span class="size-square">M</span>
+                        <span class="size-square">G</span>
+                    </div>
+                    <p class="product-price">R$ 452,07</p>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- Ícone do WhatsApp -->
+    <a href="https://api.whatsapp.com/send?phone=5551995987877" target="_blank" class="whatsapp">
+        <img src="assets/whatsapp.png" alt="Ícone do WhatsApp" class="whatsapp-icon">
+    </a>
+    
+    <!-- Footer -->
+    <div class="footer">
+        <p class="newsletter-title">Fique por dentro das nossas novidades</p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+                <div class="input-line"></div> 
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Insira seu e-mail..." required>
+                <div class="input-line"></div> 
+            </div>
+            <button type="submit">ENVIAR</button>
+        </form>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://open.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a>
+        </div>
+        <div class="our-brands">
+            <h3>Nossas Marcas</h3>
+            <div class="brand-list">
+                <div class="brand">
+                    <p>Colcci</p>
+                    <p>Gucci</p>
+                    <p>Prada</p>
+                    <p>Chanel</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-info">
+            <p class="help"><i class="fas fa-question-circle"></i> Precisa de ajuda?</p>
+            <p class="phone"><i class="fas fa-phone"></i> xxxx xxx xxxx</p>
+            <p class="email"><i class="far fa-envelope"></i> <a href="mailto:atendimento@elegancemoda.com.br">atendimento@elegancemoda.com.br</a></p>
+            <p class="mobile"><i class="fas fa-mobile-alt"></i> xx xxxxx-xxxx</p>
+        </div>
+        <div class="direitos">
+            <p>© 2024 Elegance Moda. Todos os direitos reservados.</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/cupom-home.js"></script>
+    <script src="js/pesquisa-navbar.js"></script>
+    <script src="js/login-navbar.js"></script>
+    <script src="js/carousel-home.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/menu-sanduiche-home.js"></script>
+    <script src="js/carousel-produtos-home.js"></script>
+    <script src="js/novidades.js"></script>
+    <script src="js/logo-navbar.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</body>
+</html>
