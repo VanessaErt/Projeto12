@@ -3,19 +3,19 @@
 
 Este projeto foi desenvolvido para o curso do Senac e vai além dos requisitos propostos, apresentando uma estrutura moderna e inovadora.
 
-###Tecnologias Utilizadas:
+-Tecnologias Utilizadas:
 Bootstrap 5, Flexbox e Viewport: Garantem responsividade e otimização para diversos dispositivos.
 Design e Identidade:
 
-###Tema Livre: 
+-Tema Livre: 
 Criei um logo exclusivo e selecionei imagens personalizadas para proporcionar uma identidade visual única ao projeto.
 Funcionalidades do Site:
 
-###Página Inicial:
+-Página Inicial:
 Carousel de Imagens: Apresenta fotos em destaque.
 Destaques Interativos: Cada destaque inclui foto, descrição e um recurso de texto expansível em JavaScript.
 
-###Página de Produtos:
+##Página de Produtos:
 Exibição de produtos: Cada produto possui imagem, descrição e um botão de compra.
 Animação Dinâmica: O botão de compra muda de cor ao passar o mouse, utilizando JavaScript para interatividade.
 Página de Login:
