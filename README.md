@@ -15,12 +15,12 @@ Funcionalidades do Site:
 Carousel de Imagens: Apresenta fotos em destaque.
 Destaques Interativos: Cada destaque inclui foto, descrição e um recurso de texto expansível em JavaScript.
 
-##Página de Produtos:
+-Página de Produtos:
 Exibição de produtos: Cada produto possui imagem, descrição e um botão de compra.
 Animação Dinâmica: O botão de compra muda de cor ao passar o mouse, utilizando JavaScript para interatividade.
 Página de Login:
 
-###Formulário de Login: 
+-Formulário de Login: 
 Permite acesso via redes sociais ou preenchimento manual.
 
 Conclusão: O projeto não só atende aos requisitos solicitados, mas também incorpora animações e interações que melhoram a experiência do usuário, resultando em um site mais completo e funcional.
